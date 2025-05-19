@@ -10,6 +10,9 @@ import { Button } from "@/components/ui/button"
 const Homepage = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen space-y-4">
+    <div className="flex flex-col items-center space-y-2">
+      <Button>Sign In</Button>
+      </div>
     <Label className="text-lg font-bold">To-Do List</Label>
     <div className="flex flex-row items-center space-y-2 gap-0.5">
     <Input className="w-64" />
